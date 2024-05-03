@@ -11,7 +11,6 @@ public class Employee {
     public Employee() {
 
     }
-
     public Employee(int id, String notionalId, String name, String surname, String address, String phone) {
         this.id = id;
         this.notionalId = notionalId;
@@ -80,6 +79,4 @@ public class Employee {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    //comment test
 }
